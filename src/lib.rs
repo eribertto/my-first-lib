@@ -7,6 +7,7 @@ mod tests {
 }
 
 // add this codes per the book
+// this will be called by bin/mymain.rs
 pub fn hello_from_lib(message: &str) {
 	println!("Printing Hello {} from library", message);
 }
